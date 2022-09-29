@@ -1,0 +1,104 @@
+body {
+  margin: 50px auto;
+  border: solid;
+  border-color: rgb(225, 149, 18);
+  max-width: 60%;
+  font-size: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+  position: relative;
+  right: 5px;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+form {
+  position: relative;
+  right: 6px;
+  padding-top: 25px;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+#fah-temp {
+  color: rgb(225, 149, 18);
+}
+
+#cel-temp {
+  color: rgb(225, 149, 18);
+}
+
+.container {
+  padding: 15px;
+  margin: 5px;
+  line-height: 30px;
+}
+
+.emoji {
+  font-size: 50px;
+  position: relative;
+  right: 17px;
+}
+
+.currentTemp {
+  font-size: 35px;
+  position: relative;
+  top: 8px;
+  right: 15px;
+}
+
+.degrees {
+  position: relative;
+  top: 16px;
+  right: 40px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.currentLocation {
+  position: relative;
+  top: 15px;
+  right: 215px;
+}
+
+.currentDate {
+  position: relative;
+  right: 25px;
+  top: 10px;
+}
+
+.currentTime {
+  position: relative;
+  left: 85px;
+  top: 10px;
+}
+
+.forecastHeader {
+  position: relative;
+  right: 6px;
+  top: 6px;
+  font-weight: lighter;
+}
+
+.forecastDays {
+  position: relative;
+  top: 10px;
+  right: 20px;
+  text-align: center;
+}
+
+.forecastEmoji {
+  font-size: 27px;
+}
+
+.forecastWeekday {
+  font-weight: lighter;
+  color: rgb(115, 75, 5);
+}
